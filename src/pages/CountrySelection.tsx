@@ -138,7 +138,7 @@ const Index = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setModalOpen(true)}
-              className="px-10 py-5 gradient-hero text-white rounded-xl font-bold text-xl hover:shadow-card-hover transition-smooth shadow-card"
+              className="px-10 py-5 bg-orange-500 text-white rounded-xl font-bold text-xl hover:shadow-card-hover transition-smooth shadow-card"
             >
               Book Now
             </motion.button>
