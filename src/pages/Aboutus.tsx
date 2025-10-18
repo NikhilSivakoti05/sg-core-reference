@@ -10,7 +10,7 @@ const team = [
   {
     name: "Alex Richmond",
     role: "Developer",
-    image: "public/client1.jpg",
+    image: "/client1.jpg",
     socials: {
       facebook: "#",
       twitter: "#",
@@ -20,7 +20,8 @@ const team = [
   {
     name: "Jeffrey Brown",
     role: "Creative Leader",
-    image: "public/client1.jpg",
+    image: "/client1.jpg",
+
     socials: {
       facebook: "#",
       twitter: "#",
