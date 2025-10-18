@@ -116,7 +116,7 @@ function AboutUs() {
   const [activeJourney, setActiveJourney] = useState<number | null>(null);
   const heroRef = useRef<HTMLDivElement>(null);
   const [selectedMilestone, setSelectedMilestone] = useState<typeof journeyMilestones[0] | null>(null);
-  const [imageSrc, setImageSrc] = useState("public/WhatsApp Image 2025-10-15 at 15.48.19_e7959d89.jpg");
+  const [imageSrc, setImageSrc] = useState("client1.jpg");
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -353,7 +353,7 @@ function AboutUs() {
                 <div
                   className="flex items-center gap-2 bg-card/20 backdrop-blur px-4 py-2 rounded cursor-pointer hover:bg-primary transition-all duration-300"
                   onClick={() =>
-                    setImageSrc("public/WhatsApp Image 2025-10-15 at 15.48.19_e7959d89.jpg")
+                    setImageSrc("client1.jpg")
                   }
                 >
                   <Heart size={16} className="text-primary" strokeWidth={1.5} />
@@ -362,7 +362,7 @@ function AboutUs() {
                 <div
                   className="flex items-center gap-2 bg-card/20 backdrop-blur px-4 py-2 rounded cursor-pointer hover:bg-secondary transition-all duration-300"
                   onClick={() =>
-                    setImageSrc("public/WhatsApp Image 2025-10-15 at 15.48.19_e7959d89.jpg")
+                    setImageSrc("client1.jpg")
                   }
                 >
                   <Users size={16} className="text-secondary" strokeWidth={1.5} />
