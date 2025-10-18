@@ -20,7 +20,7 @@ const team = [
   {
     name: "Jeffrey Brown",
     role: "Creative Leader",
-    image: "public/WhatsApp Image 2025-10-15 at 15.48.19_e7959d89.jpg",
+    image: "public/client1.jpg",
     socials: {
       facebook: "#",
       twitter: "#",
